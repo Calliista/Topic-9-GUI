@@ -21,5 +21,16 @@ namespace Topic_9_GUI
         {
 
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            imgCharacter.Visible = true;
+            //lblStatus.Text = "Status Clicked";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
